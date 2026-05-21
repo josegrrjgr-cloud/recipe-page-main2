@@ -1,0 +1,127 @@
+body{
+    margin: 100px 0;
+    background-color: rgb(240, 222, 196);
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.contenedor{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cuadro{
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   max-width: 630px;
+   padding: 30px;
+   border-radius: 12px;
+   
+}
+.img-contenedor{
+    margin-bottom: 24px;
+}
+.imagen {
+    
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.title{
+    font-family: "Young Serif", sans-serif, serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+p{
+    font-family:"Outfit", serif ;
+    color: rgb(72, 49, 3);
+    font-size: 0.78rem;
+    margin-bottom: 30px;
+
+}
+.preparation-box {
+  /* 1. El color de fondo (un tono rosa/morado muy claro y sutil) */
+  background-color: #f2e1e4; 
+  
+  /* 2. El espacio interno para que el texto no toque los bordes */
+  padding: 14px; 
+  
+  /* 3. Bordes redondeados */
+  border-radius: 12px; 
+  
+  /* 4. Separación externa con los demás elementos (opcional) */
+  margin: 10px 0; 
+}
+
+.sub-title{
+    font-family: "Outfit", serif;
+    color: rgb(117, 36, 66);
+    margin: 4;
+}
+.preparation-box ul {
+  margin: 0;
+  padding-left: 20px; /* Espacio para las viñetas */
+  color: #352e08;
+}
+
+.preparation-box li {
+  margin-bottom: 15px; /* Separación entre cada punto */
+}
+
+.preparation-box li:last-child {
+  margin-bottom: 25px; /* Quita el espacio al último elemento */
+}/* Esto selecciona específicamente los puntos de la lista dentro de tu contenedor */
+.preparation-box li::marker {
+  color: #7b284e; /* Aquí pones el color que quieras para los puntos */
+  font-size: 0.8rem; /* Opcional: por si quieres hacer los puntos un poco más grandes o pequeños */
+}
+
+h2{
+     font-family: "Young Serif", sans-serif, serif;
+     color: rgb(135, 68, 6);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+li{
+    margin: 0%;
+    margin-bottom: 10px;
+   font-family: "Outfit", serif;
+   padding-left: 20px;
+   color: rgb(72, 49, 3);
+}
+
+ul{
+    padding-left: 20px;
+}
+li::marker{
+    color: #914e06; /* Aquí pones el color que quieras para los puntos */
+  font-size: 0.8rem; /* Opcional: por si quieres hacer los puntos un poco más grandes o pequeños */
+}
+.strong{
+    color: rgb(72, 49, 3);
+}
+ol{
+    padding-left: 20px;
+}
+table{
+    width: 100%;
+    font-family: "Outfit", serif;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 0.3px solid rgb(176, 116, 13);
+    font-weight: bold;
+     color: #914e06;
+}
+
+th{
+    font-weight: normal;
+    color: rgb(72, 49, 3);
+}
+
